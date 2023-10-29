@@ -3,7 +3,7 @@ import Container from 'components/Container/Container';
 import { useEffect, useState } from 'react';
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
-import { fetchMoviesDetails, getMovies } from 'services/movies-api';
+import { fetchMoviesDetails } from 'services/movies-api';
 import PageHeading from 'components/Pageheading/Pageheading';
 
 export default function MovieDetailsPage() {

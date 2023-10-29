@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_KEY = '39231983-3a5a24849d135b109e286581a';
-axios.defaults.baseURL = 'https://api.themoviedb.org/3';
+const API_KEY = '959c97e3f5136b0a1599d95df967b17e';
+axios.defaults.baseURL = 'https://image.tmdb.org/t/p/w500';
 
 const END_POINTS = {
   trending: '/trending/movie/week',

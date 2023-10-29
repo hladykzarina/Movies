@@ -30,11 +30,7 @@ const SearchBar = ({ onSearch }) => {
           onChange={handleQuerySearch}
           className={s.searchInput}
         />
-        <button
-          type="submit"
-          //   onClick={handleInputClear}
-          className={s.searchButton}
-        >
+        <button type="submit" className={s.searchButton}>
           Search
         </button>
       </form>

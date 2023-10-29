@@ -1,11 +1,11 @@
 import { useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import SearchBar from 'components/MoviesPage/SearchBar';
+import SearchBar from '../components/MoviesPage/SearchBar';
 import { fetchByQuery } from 'services/movies-api';
-import MovieList from 'components/TrendingMovies/MovieList';
-import Container from 'components/Container/Container';
-import PageHeading from 'components/Pageheading/Pageheading';
+import MovieList from '../components/TrendingMovies/MovieList';
+import Container from '../components/Container/Container';
+import PageHeading from '../components/Pageheading/Pageheading';
 
 const MoviesPage = () => {
   const [searchParams, setSearchParams] = useSearchParams();
