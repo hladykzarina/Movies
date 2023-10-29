@@ -1,0 +1,13 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 500;
+  color: #2a3b35;
+  font-size: 18px;
+}
+
+.link :focus,
+.link:hover {
+  color: #1f6c47;
+}

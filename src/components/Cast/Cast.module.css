@@ -1,0 +1,10 @@
+.castList {
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.castItem {
+  margin-bottom: 28px;
+}
