@@ -9,8 +9,8 @@
   background-image: repeating-linear-gradient(
     -45deg,
     #0d8261,
-    #0d8261 16px,
-    #0d8261 16px,
-    #0d8261 32px
+    #0d8261 10px,
+    #0d8261 10px,
+    #0d8261 28px
   );
 }

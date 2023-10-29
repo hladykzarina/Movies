@@ -1,8 +1,9 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  min-height: 90px;
-  margin-bottom: 18px;
+  justify-content: center;
+  padding-top: 18px;
+
+  margin-bottom: 12px;
   border-bottom: 1px solid #1f6c47;
 }
