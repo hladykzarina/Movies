@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import { fetchMoviesDetails } from 'services/movies-api';
-import PageHeading from 'components/Pageheading/Pageheading';
+import PageHeading from '../Pageheading/Pageheading';
 
 export default function MovieDetailsPage() {
   const [movie, setMovie] = useState(null);
